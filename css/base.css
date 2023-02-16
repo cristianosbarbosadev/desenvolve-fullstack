@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /* Body --------- */
@@ -21,36 +22,13 @@ header {
     display: flex;
 }
 
-.container-elementos-header {
-    width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.container{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin: auto;
 }
 
-.titulo-principal {
-    font-size: 24px;
-    color: #0000EE;
-    font-weight: 400;
-}
 
-.label-pesquisa {
-    background-color: #DB1E8C;
-    height: 40px;
-    padding: 8px;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    border-radius: 4px;
-}
 
-.input-pesquisa {
-    background-color: transparent;
-    padding: 4px;
-    border: none;
-}
 
-::placeholder {
-    color: #FF97D3;
-}
+

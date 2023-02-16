@@ -2,10 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
 /* Reset básico --------- */
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Body --------- */
@@ -14,15 +20,10 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-/* Header --------- */
-header {
-  height: 80px;
-  background-color: #ffffff;
-  display: flex;
-}
-
 .container {
-  padding-left: 10rem;
-  padding-right: 10rem;
-  margin: auto;
+  max-width: 80rem;
+  /* padding-left: 80px;
+  padding-right: 80px; */
+  margin-left: 15.625rem;
+  margin-right: 15.625rem;
 }

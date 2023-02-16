@@ -3,32 +3,26 @@
 
 /* Reset básico --------- */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Body --------- */
 body {
-    background-color: #33475B;
-    font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #33475b;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* Header --------- */
 header {
-    height: 80px;
-    background-color: #FFFFFF;
-    display: flex;
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
 }
 
-.container{
-    padding-left: 10rem;
-    padding-right: 10rem;
-    margin: auto;
+.container {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin: auto;
 }
-
-
-
-
-
